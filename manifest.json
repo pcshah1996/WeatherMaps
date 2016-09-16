@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Weather Maps",
+  "version": "0.1",
+  "content_scripts": [
+  {
+    "matches": [
+     "https://maps.google.com/*", "http://maps.google.com/*",
+     "https://www.google.com/maps/*", "http://www.google.com/maps/*",
+     "https://google.com/maps/*", "http://google.com/maps/*"
+    ],
+    "js": ["content.js"]
+  }
+]
+}
