@@ -9,7 +9,10 @@
      "https://www.google.com/maps/*", "http://www.google.com/maps/*",
      "https://google.com/maps/*", "http://google.com/maps/*"
     ],
-    "js": ["content.js"]
+    "js": ["jquery-3.1.0.min.js", "content.js"]
   }
-]
+],
+"background": {
+  "scripts": ["background.js"]
+}
 }
